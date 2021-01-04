@@ -175,9 +175,9 @@ void Clock()
 		Second=0;
 	}
 
-	// R=rand()%256;
-	// G=rand()%256;
-	// B=rand()%256;
+	R=rand()%256;
+	G=rand()%256;
+	B=rand()%256;
 
 }
 int main()
@@ -188,9 +188,9 @@ int main()
 	Hour=Time->tm_hour;
 	Minute=Time->tm_min;
 	Second=Time->tm_sec+1;
-	// R=rand()%256;
-	// G=rand()%256;
-	// B=rand()%256;
+	R=rand()%256;
+	G=rand()%256;
+	B=rand()%256;
 	srand(time(NULL));
     //place your own initialization codes here.
 	iSetTimer(1000,Clock);
