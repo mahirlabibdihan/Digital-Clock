@@ -1,18 +1,25 @@
+/*
+ ______   _________ _      _       _
+|  ____ \|___   ___| |    | |     | |
+| |    \ \   | |   | |____| |     | |
+| |    | |   | |   |  ____  |     | |
+| |____/ /___| |___| |    | |_____| |
+|_______/|_________|_|    |_________|
+M A H I R     L A B I B     D I H A N
 
-	# include "iGraphics.h"
+*/
 
-int x = 300, y = 300, r = 15;
+# include "iGraphics.h"
+
 int Hour,Minute,Second;
 int R=255,G=255,B=0;
 
-	struct
-	{
-		double Width=1.2;
-		int Height=5;
-		int Triangle_Height=1;
-		int TimeX=20,TimeY=70,RemainingX=20,RemainingY=20,LevelX=20,LevelY=120;
-		int ScoreX=220,ScoreY=1000,BulletY=35,BigScoreX=920,BigScoreY=850;
-	} Font;
+struct
+{
+	double Width=1.2;
+	int Height=5;
+	int Triangle_Height=1;
+} Font;
 /*
 	function iDraw() is called again and again by the system.
 */
